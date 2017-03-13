@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Arthuryin\\ChuanglanSms": "src/"
+      "Arthuryin\\ChuanglanSms\\": "src/"
     }
   },
   "minimum-stability": "dev"
