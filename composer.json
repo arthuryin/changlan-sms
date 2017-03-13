@@ -21,7 +21,7 @@
   "autoload": {
     "psr-4": {
       "Arthuryin\\ChuanglanSms": "src/",
-      "Arthuryin\\ChuanglanSms\\ChuanglanHelper": "src/chuanglan-helper",
+      "Arthuryin\\ChuanglanSms\\ChuanglanHelper": "src/chuanglan-helper"
     }
   },
 
