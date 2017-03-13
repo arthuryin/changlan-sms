@@ -1,25 +1,25 @@
 <?php
 
-namespace Arthur\ChuangLan\ChuangLanHelper;
+namespace Arthur\ChuanglanSms\ChuanglanHelper;
 
 /**
- * 创蓝语音短信接口
- * Class ChuangLanVoiceApi
+ * 创蓝短信接口
+ * Class ChuangLanSmsApi
  * @package Arthur\Chuanglan\ChuangLanHelper
  */
-class ChuangLanVoiceApi
+class ChuangLanSmsApi
 {
-    private $apiSendUrl = 'http://zapi.253.com/msg/HttpBatchSendSM';//创蓝发送短信接口URL
+    private $apiSendUrl = 'http://sms.253.com/msg/HttpBatchSendSM';//创蓝发送短信接口URL
     private $apiBalanceQueryUrl = 'http://sms.253.com/msg/QueryBalance'; //创蓝短信余额查询接口URL
     private $apiAccount = ''; //创蓝账号
     private $apiPassword = ''; //创蓝密码
 
     /**
-     * 构造函数
+     * ChuangLanSmsApi constructor.
      * @param $apiAccount
      * @param $apiPassword
      */
-    public function __contruction($apiAccount, $apiPassword)
+    public function __construct($apiAccount, $apiPassword)
     {
         $this->apiAccount = $apiAccount;
         $this->apiPassword = $apiPassword;
@@ -38,8 +38,8 @@ class ChuangLanVoiceApi
 
     /**
      * 发送短信
-     * @param string $mobile 手机号码
-     * @param string $msg 短信内容
+     * @param $mobile   手机号码
+     * @param $msg  短信内容
      * @param string $needstatus 是否需要状态报告
      * @return mixed
      */

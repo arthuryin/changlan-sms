@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Arthur\\ChangLan\\": "src/"
+      "arthur\\chuanglan-sms\\": "src/"
     }
   },
 
