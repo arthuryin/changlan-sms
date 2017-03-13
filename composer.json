@@ -3,11 +3,8 @@
   "description": "Laravel chuanglan-sms, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
   "keywords": [
     "laravel",
-    "illuminate",
-    "auth",
-    "roles",
-    "acl",
-    "permission"
+    "changlan",
+    "sms"
   ],
   "authors": [
     {
