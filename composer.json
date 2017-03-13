@@ -1,0 +1,27 @@
+{
+  "name": "arthur/changlan-sms",
+  "description": "Laravel chuanglan-sms, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+  "keywords": [
+    "laravel",
+    "illuminate",
+    "auth",
+    "roles",
+    "acl",
+    "permission"
+  ],
+  "authors": [
+    {
+      "name": "yinzhen",
+      "email": "arthur.yinzhen@outlook.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Arthur\\ChangLan\\": "src/"
+    }
+  }
+}
