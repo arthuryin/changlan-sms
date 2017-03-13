@@ -1,5 +1,5 @@
 {
-  "name": "arthur/changlan-sms",
+  "name": "arthuryin/changlan-sms",
   "version": "1.0.0",
   "description": "Laravel chuanglan-sms, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
   "license": "proprietary",
@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "arthur\\chuanglan-sms\\": "src/"
+      "arthuryin\\chuanglan-sms\\": "src/"
     }
   },
 

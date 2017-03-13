@@ -1,7 +1,7 @@
 <?php
-namespace Arthur\ChuanglanSms;
-use Arthur\ChuanglanSms\ChuanglanHelper\ChuangLanSmsApi;
-use Arthur\ChuanglanSms\ChuanglanHelper\ChuangLanVoiceApi;
+namespace Arthuryin\ChuanglanSms;
+use Arthuryin\ChuanglanSms\ChuanglanHelper\ChuangLanSmsApi;
+use Arthuryin\ChuanglanSms\ChuanglanHelper\ChuangLanVoiceApi;
 
 
 Class ChuangLanSMS {

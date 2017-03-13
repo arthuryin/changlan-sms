@@ -1,6 +1,6 @@
 <?php
 
-namespace Arthur\ChuanglanSms\ChuanglanHelper;
+namespace Arthuryin\ChuanglanSms\ChuanglanHelper;
 
 /**
  * 创蓝短信接口
