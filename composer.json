@@ -1,6 +1,9 @@
 {
   "name": "arthur/changlan-sms",
+  "version": "1.0.0",
   "description": "Laravel chuanglan-sms, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+  "license": "proprietary",
+  "type": "library",
   "keywords": [
     "laravel",
     "changlan",
@@ -12,7 +15,6 @@
       "email": "arthur.yinzhen@outlook.com"
     }
   ],
-  "minimum-stability": "dev",
   "require": {
     "php": ">=5.4.0"
   },
@@ -20,5 +22,7 @@
     "psr-4": {
       "Arthur\\ChangLan\\": "src/"
     }
-  }
+  },
+
+  "minimum-stability": "dev"
 }
