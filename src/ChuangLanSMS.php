@@ -1,7 +1,8 @@
 <?php
-namespace Arthur\Chuanglan;
-use Arthur\Chuanglan\ChuangLanHelper\ChuangLanSmsApi;
-use Arthur\Chuanglan\ChuangLanHelper\ChuangLanVoiceApi;
+namespace Arthur\ChuangLan;
+use Arthur\ChuangLan\ChuangLanHelper\ChuangLanSmsApi;
+use Arthur\ChuangLan\ChuangLanHelper\ChuangLanVoiceApi;
+
 
 Class ChuangLanSMS {
     private $appName = null;//签名
@@ -18,9 +19,10 @@ Class ChuangLanSMS {
         $this->apiAccount = $apiAccount;
         $this->apiPassword = $apiPassword;
     }
+
     /**
      * 设置签名
-     * @param type $appName
+     * @param $appName
      */
     public function setAppName($appName) {
         $this->appName = $appName;
