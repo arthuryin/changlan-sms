@@ -16,13 +16,13 @@ class ChuangLanSmsApi
 
     /**
      * ChuangLanSmsApi constructor.
-     * @param $apiAccount
-     * @param $apiPassword
+     * @param $apiAccount env配置账号
+     * @param $apiPassword env配置密码
      */
-    public function __construct($apiAccount, $apiPassword)
+    public function __construct()
     {
-        $this->apiAccount = $apiAccount;
-        $this->apiPassword = $apiPassword;
+        $this->apiAccount = env('CL_ACCOUNT', '');
+        $this->apiPassword = env('CL_PASSWORD', '');
     }
 
     /**
