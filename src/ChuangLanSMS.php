@@ -18,7 +18,7 @@ Class ChuangLanSMS
      * @param type $apiAccount
      * @param type $apiPassword
      */
-    public function __construct($appName)
+    public function __construct($appName = null)
     {
         $this->appName = $appName;
     }
